@@ -27,7 +27,7 @@ function Page() {
 
   return (
     <div className="text-4xl font-bold text-white">
-      <div className="flex flex-row justify-around gap-6 m-3">
+      <div className="flex flex-row justify-between gap-6 m-3">
         <div>
           <img src="/time.png" alt="time" />
         </div>

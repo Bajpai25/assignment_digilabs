@@ -2,11 +2,13 @@
 import { useEffect } from 'react';
 import "./globals.css";
 
-function page() {
+function Page() {
+   
   useEffect(() => {
     if (!("Notification" in window)) {
       alert("This browser does not support desktop notification");
     }
+
   }, []);
 
   const sendNotification = () => {
@@ -57,4 +59,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
